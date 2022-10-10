@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "this is script from github"
-NUMBER=$(("$NUMBERONE" + "$NUMBERTWO"))
+NUMBER=$(($NUMBERONE +$NUMBERTWO))
 echo "$NUMBER"
-echo "this is a change to trigger hook - 6"
+echo "this is a first script"
 
